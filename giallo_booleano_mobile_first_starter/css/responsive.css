@@ -38,3 +38,24 @@
 
 }
 
+/* Desktop Version */
+@media screen and (min-width: 992px) {
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-card img {
+        width: 100%;
+        
+    }
+
+    .social-networks .label{
+        display: inline-block;
+    }
+
+    .social-networks button{
+
+        font-size: 10px;
+        padding: 10px 50px;
+    }
+}
